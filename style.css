@@ -1,0 +1,81 @@
+* {
+    margin: none;
+    padding: none;
+    background-color: rgb(226, 226, 226);
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+    color: rgb(19, 19, 53);
+    text-shadow: 0 6px 8px rgba(0,0,0,0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.msg-container {
+    justify-content: center;
+    text-align: center;
+    color: rgb(88, 114, 123);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    justify-content: center;
+    text-align: center;
+    color: rgb(19, 19, 53);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.hide {
+    display: none;
+}
+
+.box {
+    font-family: "Varela Round", sans-serif;
+    display:flex;
+    flex-wrap: wrap;
+    height: 8rem;
+    width: 8rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: none;
+    font-size: 4rem;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3), -5px -5px 10px white;
+    cursor: pointer;
+    background-color: rgb(232, 230, 230);
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+.box:hover {
+    box-shadow: none;
+}
+.box:active {
+    box-shadow: inset 5px 5px 10px rgb(0, 0, 0,0.3), inset -5px -5px 10px white;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30rem;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px; 
+}
+    
+container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+}
