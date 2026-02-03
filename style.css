@@ -2,7 +2,7 @@
     margin: none;
     padding: none;
     background-color: rgb(226, 226, 226);
-    -webkit-tap-highlight-color: transparent;
+    
 }
 
 .title {
@@ -53,6 +53,7 @@
     background-color: rgb(232, 230, 230);
     color: rgb(0, 0, 0);
     transition: all 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .box:hover {
     box-shadow: none;
